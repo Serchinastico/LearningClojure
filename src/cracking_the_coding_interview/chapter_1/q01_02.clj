@@ -14,7 +14,7 @@
 
 ; Version 2: Sort the strings and compare them directly
 ;
-; Complexity: O(n * log(n)) where n is max((count first-string, (count second-string))
+; Complexity: O(n * log(n)) where n is (max (count first-string, (count second-string))
 ;   Assuming: sort complexity is O(n * log(n))
 
 (defn permutations-v2? [first-string second-string]
